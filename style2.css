@@ -1,0 +1,47 @@
+body {
+    background-image: url('background.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-heading {
+    font-family: 'Arial', sans-serif; 
+    font-size: 48px; 
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(8, 17, 194, 0.5); 
+    background: linear-gradient(to right, #034397, #feb47b); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+.main-heading2 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 48px; 
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(199, 38, 38, 0.5); 
+    background: linear-gradient(to right, #2d0259, #feb47b); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+
+.digit {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(8, 62, 209, 0.5); 
+    border-radius: 8px; 
+    margin: 0 5px;
+    font-family: Arial, sans-serif;
+}
+
+.txt {
+    font-size: 16px;
+    margin: 0 5px;
+}
